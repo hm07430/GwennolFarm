@@ -1,111 +1,67 @@
-body {
-  background-color: #FFF;
+* {
+/*  border: 0px none Green; */
+  font-family: Verdana, sans-serif;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("photos/blueberries-mod.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: space;
 }
 
 .header {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-5/htmlcss1-img_canyon.jpeg");
-  background-position: center center;
-  background-size: cover;
-  height: 700px;
+  font-family: Georgia, "Times New Roman", serif;
+  height: 350px;
   width: 100%;
 }
 
-/* Add the ID selector to this CSS rule */
-
-#header-text {
-  margin: 0 auto;
-  position: relative;
-  text-align: center;
-  top: 25%;
-  width: 60%;
-}
-
-h1 {
-  color: #FFF;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 70px;
-  font-weight: 400;
-  line-height: 60px;
-  margin: 0;
-}
-
-h2 {
-  color: #FFF;
-  font-family: 'Open Sans', sans-serif;
-  text-align: center;
-  font-size: 28px;
-  font-weight: 100;
-}
-
-h3 {
-  color: #FFF;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 28px;
-  font-weight: 400;
-  line-height: 30px;
-  margin: 10px 0px;
-  text-align: center;
-}
-
-h4 {
-  color: #CCC;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-}
-
-p {
-  color: white;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  font-weight: 100;
-  line-height: 24px;
-  margin: 0 auto;
-  text-align: center;
-  width: 60%;
-}
-
-/* Add the class selector to this CSS rule */
-
-.partner {
-  padding: 20px;
-  margin: 0 auto;
-  border-bottom: 1px solid #EEE;
-}
-
-.partner img {
-  position: relative;
-  top: 6px;
-}
-
-.prop, .partner {
-  text-align: center;
-}
-
-.aa-logo {
-  padding-left: 6px;
+.header h3 {
+   font-style: italic;
+   color: White;
 }
 
 .main {
-  background: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-5/shards.png");
   margin: 0;
   padding: 40px;
 }
+ .main img {
+   display: block;
+   width: 50%;
+   margin: 3% auto;
+ }
+h1 {
+  color: White;
+  text-align: center;
+  font-size: 5em;
+  font-weight: 400;
+  margin: 3%;
+}
 
-.value-props {
-  margin: 40px auto;
+h2 {
+  color: White;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 200;
+}
+
+h3 {
+  color: Black;
+  font-size: 20px;
+  font-weight: 100;
+  text-align: center;
+}
+
+p {
+  color: black;
+  font-size: 1.5em;
+  font-weight: 100;
+  background-color: White;
+  margin: 0% auto;
+  padding: 1%;
+  text-align: center;
   width: 60%;
-}
-
-.prop {
-  border: 1px solid #FFF;
-  padding: 40px 0px;
-  margin: 5px 0px;
-}
-
-.prop h2 {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 24px;
 }
