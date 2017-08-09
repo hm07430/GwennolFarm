@@ -14,7 +14,6 @@ body {
 }
 
 .header {
-  font-family: Georgia, "Times New Roman", serif;
   height: 350px;
   width: 100%;
 }
@@ -28,11 +27,23 @@ body {
   margin: 0;
   padding: 40px;
 }
- .main img {
+
+.main p {
+  background-color: White;
+  border-radius: 10px;
+  margin: 0% auto;
+  padding: 1%;
+  text-align: center;
+  width: 50%;
+}
+
+.main img {
    display: block;
    width: 50%;
+   border-radius: 10px;
    margin: 3% auto;
  }
+
 h1 {
   color: White;
   text-align: center;
@@ -44,13 +55,13 @@ h1 {
 h2 {
   color: White;
   text-align: center;
-  font-size: 28px;
+  font-size: 2em;
   font-weight: 200;
 }
 
 h3 {
   color: Black;
-  font-size: 20px;
+  font-size: 1.5em;
   font-weight: 100;
   text-align: center;
 }
@@ -59,9 +70,5 @@ p {
   color: black;
   font-size: 1.5em;
   font-weight: 100;
-  background-color: White;
-  margin: 0% auto;
-  padding: 1%;
-  text-align: center;
-  width: 60%;
+
 }
