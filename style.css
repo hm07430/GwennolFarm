@@ -34,6 +34,7 @@ body {
   margin: 3% auto;
   padding: 1%;
   text-align: center;
+  line-height: 120%;
   width: 70%;
   display: block;
 }
@@ -63,6 +64,5 @@ h3 {
 p {
   color: black;
   font-size: 2em;
-  font-weight: 200;
-
+  font-weight: 400;
 }
